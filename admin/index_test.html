@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>AMG Seguros - Sua segurança em primeiro lugar.</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#seguroauto">Seguro Auto</a>
+            <a class="navbar-brand" href="#planosaude">Plano Saúde</a>
+            <a class="navbar-brand" href="#saudeempresarial">Saúde Empresarial</a>
+            <a class="navbar-brand" href="#seguroresidencial">Seguro Residencial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#seguroauto">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Cadastre-se</a></li> -->
+                        <!-- <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a> 
+                    </ul>
+                </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#seguroauto">Seguro Auto</a>
+            <a class="navbar-brand" href="#planosaude">Plano Saúde</a>
+            <a class="navbar-brand" href="#saudeempresarial">Saúde Empresarial</a>
+            <a class="navbar-brand" href="#seguroresidencial">Seguro Residencial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
+                document.getElementById("mainNav").style.top = "0";
+            } else {
+                document.getElementById("mainNav").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+    
+    
+    <!-- Slide de Imagens -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/imagemfrente.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/seguroresidencial.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/seguroauto.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="images/planodesaude.jpg" class="d-block w-100" alt="Slide 4">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!-- Restante do conteúdo da página -->
+    <header class="bg-primary text-white" >
+        <div class="container px-4 ext-center bg-image">
+            <p class="lead">AMG Seguros: Sua segurança em primeiro lugar. Com uma trajetória de mais de 26 anos,
+                destacamos-nos não apenas como uma corretora de excelência, mas como uma empresa
+                comprometida com o atendimento personalizado, eficiência e soluções sob medida.</p>
+            <p class="lead">Conte conosco para proteger o seu presente e construir o seu futuro. </p>
+            <!-- <a class="btn btn-lg btn-light" href="#about">Faça uma cotação gratuita!</a> -->
+            <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a>
+        </div>
+    </header>
+    <!-- About section-->
+
+    <section id="seguroauto">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Seguro Automóvel</h2>
+                    <p class="lead">Garanta a segurança do seu
+                        veículo. Benefícios exclusivos, parcelas flexíveis e preços competitivos.A maneira mais simples de contratar proteção. A
+                        contratação pode ser feita online.
+                       Garanta paz de espírito ao assegurar seu veículo com
+                        simplicidade e agilidade. A liberdade de escolher
+                        todas coberturas sob medida para você.</p>
+                    <ul>
+                        <li>Carro reserva.</li>
+                        <li>Desconto em estacionamentos.</li>
+                        <li>Cristalização de para-brisa e vigia</li>
+                        <li>Troca de lâmpadas e alinhamento dos faróis.</li>
+                        <li>Explore os benefícios exclusivos do nosso seguro.
+                            Opções flexíveis para sua tranquilidade</li>
+                    </ul>
+                    <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="planosaude">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Plano de Saúde</h2>
+                    <p class="lead">A segurança que você precisa
+                        para viver bem.
+                       Acesso rápido a várias consultas e hospitais,
+                        cobertura abrangente e tranquilidade para
+                        cuidar da sua saúde e bem-estar. 
+                       
+                       Escolha qualidade de vida! Proteja seu bem estar.</p>
+                    <ul>
+                        <li>Acesso a uma rede de profissionais de saúde, hospitais e clínicas.</li>
+                        <li>Atendimento rápido.</li>
+                        <li>Cobertura Abrangente</li>
+                        <li>Assistência 24 Horas.</li>
+                        <li>Escolha de Médicos e Hospitais.</li>
+                    </ul>
+                    <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="saudeempresarial">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Saúde Empresarial </h2>
+                    <p class="lead">Mais produtividade para seus colaboradores.
+                        Garanta o bem-estar integral dos seus colaboradores.
+                        Com cobertura abrangente, acesso à nossa ampla
+                        rede credenciada e opções personalizáveis.</p>
+                    <ul>
+                        <li>Aumente a produtividade e fidelidade de seus colaboradores.</li>
+                        <li>Redução do pagamento de impostos.</li>
+                        <li>Retenção e Atração de Talentos.</li>
+                        <li>Carência Reduzida.</li>
+                        <li>Atendimento médico abrangente para seus colaboradores em todas as situações.</li>
+                        <li>Ampla Rede Credenciada: Parceria com os principais hospitais, clínicas e profissionais da área de saúde,</li>
+                    </ul>
+                    <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seguroresidencial">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Seguro Residencial </h2>
+                    <p class="lead">Proteção para a sua casa e tudo o que
+                        está dentro dela.
+                       Serviços como reparos em chuveiro
+                        e eletrodoméstico.</p>
+                    <ul>
+                        <li>Se acontecer um imprevisto, você fica amparado.</li>
+                        <li>Danos elétricos</li>
+                        <li>Roubo e furto:  
+                            • Cobertura para os itens da sua casa que sejam levados ou danificados.</li>
+                        <li>Serviços assistenciais:  
+                            • Encanador
+                            
+                            • Eletricista
+                            
+                            • Eletrodomésticos
+                            
+                            • Chaveiro.</li>
+                    </ul>
+                    <a class="btn btn-lg btn-light" href="https://api.whatsapp.com/send?phone=5561999449572">Faça uma cotação gratuita!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section-->
+    <section class="bg-light" id="quemsomos">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Quem Somos</h2>
+                    <p class="lead">A AMG Seguros é uma corretora de seguros com mais de 26 anos de experiência em proteger o patrimônio de seus clientes. Nós nos destacamos no mercado por oferecer não apenas excelência em nossos serviços, mas também um atendimento personalizado, eficiente e soluções sob medida para cada cliente.
+
+                        Acreditamos que a segurança é um valor fundamental e, por isso, trabalhamos incansavelmente para oferecer as melhores soluções em seguros para nossos clientes. Oferecemos uma ampla gama de seguros, desde seguros de automóveis, saúde e vida, até seguros empresariais e para propriedades.
+                        
+                        Conte conosco para proteger o seu presente e construir o seu futuro. Nós estamos aqui para ajudá-lo a proteger o que é mais importante para você e sua família. Entre em contato conosco para saber mais sobre nossos serviços e como podemos ajudá-lo a encontrar a melhor solução em seguros para suas necessidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Deixe sua mensagem conosco!</h2>
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row">
+                                <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                                <div class="col-lg-6">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <h1 class="h4 text-gray-900 mb-4">Deixe sua mensagem!</h1>
+                                        </div>
+                                        <form class="user">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control form-control-user"
+                                                    id="exampleInputEmail" aria-describedby="emailHelp"
+                                                    placeholder="Enter Email Address...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleTextarea">Mensagem</label>
+                                                <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Digite sua mensagem aqui..."></textarea>
+                                            </div>
+                                            <!-- <div class="form-group">
+                                                <input type="password" class="form-control form-control-user"
+                                                    id="exampleInputPassword" placeholder="Digite sua Mensagem!!!">
+                                            </div> -->
+                                            <div class="form-group">
+                                                <!-- <div class="custom-control custom-checkbox small">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                                                    <label class="custom-control-label" for="customCheck">Remember
+                                                        Me</label>
+                                                </div> -->
+                                            </div>
+                                            <a href="register.html" class="btn btn-primary btn-user btn-block">
+                                                Enviar Mensagem
+                                            </a>
+                                            <!-- <hr>
+                                            <a href="index.html" class="btn btn-google btn-user btn-block">
+                                                <i class="fab fa-google fa-fw"></i> Login with Google
+                                            </a>
+                                            <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                                <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+                                            </a>
+                                        </form>
+                                        <hr>
+                                        <div class="text-center">
+                                            <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                        </div> -->
+                                        <!-- <div class="text-center">
+                                            <a class="small" href="register.html">Create an Account!</a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+</body>
+</html>
